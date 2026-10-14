@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Never Miss a Bill — Due-Date Tracking, Spending Summary &amp; Corrections | ClerkBrain</title>
+<meta name="description" content="ClerkBrain finds which bills and invoices are due or overdue, with an optional reminder, a spending summary by supplier and month, and hand corrections you can always undo. Export-ready for Xero and QuickBooks too.">
+<link rel="canonical" href="https://nikatsam.github.io/WIN_APP_TidyClerk_Website/features/due-soon.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Never Miss a Bill — ClerkBrain">
+<meta property="og:description" content="Finds bills and invoices that are due or overdue, with an optional reminder and a spending summary by supplier and month.">
+<meta property="og:image" content="https://nikatsam.github.io/WIN_APP_TidyClerk_Website/assets/img/og-banner.png">
+<meta property="og:url" content="https://nikatsam.github.io/WIN_APP_TidyClerk_Website/features/due-soon.html">
+<link rel="icon" href="../assets/img/icon-310.png">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="stylesheet" href="../assets/css/style.css?v=3">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://nikatsam.github.io/WIN_APP_TidyClerk_Website/" },
+    { "@type": "ListItem", "position": 2, "name": "Due Soon", "item": "https://nikatsam.github.io/WIN_APP_TidyClerk_Website/features/due-soon.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can ClerkBrain tell me which bills are due or overdue?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Search due:soon or open Smart Folders > Due soon to see bills and invoices overdue by up to 30 days or due in the next 14, soonest first. The due date comes only from what the document says - a printed 'Due date' or 'Please pay by', or the invoice date plus payment terms such as 'Net 30' - so ClerkBrain never guesses one." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I get a reminder for bills that are due?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, as an optional Windows notification you turn on in Settings > Reminders. It checks at most once a day while ClerkBrain is open and only mentions bills that are overdue or due within 3 days, so it never nags." }
+    },
+    {
+      "@type": "Question",
+      "name": "Does ClerkBrain show how much I've spent, by supplier or by month?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, in the spending summary (... menu). It totals your invoices and receipts by supplier and by month for a tax year or calendar year, keeps currencies separate rather than adding them together, and every supplier expands to the real documents behind the number." }
+    },
+    {
+      "@type": "Question",
+      "name": "What if ClerkBrain reads a total, date or due date wrongly?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Use Correct... on that document to type in the right value. ClerkBrain checks it (a total must be a real amount, a date a real date), uses it everywhere - names, exports, the spending summary, Due soon - and keeps it even if the document is read again. It can always be undone, and the file itself is never changed." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="../index.html"><img src="../assets/img/icon-310.png" alt="ClerkBrain logo" width="32" height="32">ClerkBrain</a>
+    <nav class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="organize.html">Organize</a>
+      <a href="ask.html">Ask AI</a>
+      <a href="receipts-privacy.html">Receipts &amp; Privacy</a>
+      <a href="cleanup.html">Cleanup</a>
+      <a href="due-soon.html" aria-current="page">Due Soon</a>
+      <a href="../faq.html">FAQ</a>
+      <a href="../privacy.html">Privacy Policy</a>
+      <a class="nav-cta" href="../index.html#store" rel="noopener">Coming soon to the Microsoft Store</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="breadcrumb"><a href="../index.html">Home</a> / Due Soon</p>
+      <span class="badge">NEW IN 1.0.1</span>
+      <h1>Never miss a bill — or wonder where the money went</h1>
+      <p class="lede" style="margin:0 auto;">ClerkBrain works out which bills and invoices are due, totals your spending by
+        supplier and month, and lets you fix a wrong reading by hand — all from documents already sitting in your
+        Downloads folder.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="showcase-row reveal">
+        <div class="shot">
+          <a href="../assets/img/09-due-soon-bills-and-invoices-dark.png" class="zoom" title="View full size"><img src="../assets/img/09-due-soon-bills-and-invoices-dark.png" alt="ClerkBrain's Due soon search showing a bill due in 7 days, with an explanation of where due dates come from" loading="lazy" width="1440" height="753"></a>
+        </div>
+        <div class="showcase-text">
+          <span class="badge">DUE SOON</span>
+          <h2>A due-bills list that never guesses</h2>
+          <p>Search <code>due:soon</code> or open Smart Folders &gt; Due soon to see what's overdue by up to 30 days or
+            due in the next 14, soonest first. The due date comes only from the document itself — a printed
+            "Due date" or "Please pay by", or the invoice date plus payment terms like "Net 30". A bill that
+            doesn't state one simply won't appear, rather than showing a guessed date.</p>
+          <ul>
+            <li>Optional reminder: a Windows notification, at most once a day, only for what's actually due</li>
+            <li>Off by default — turn it on in Settings &gt; Reminders</li>
+            <li>Missed one? Add its due date by hand in seconds (see below)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="showcase-row reverse reveal">
+        <div class="shot">
+          <a href="../assets/img/10-spending-summary-by-supplier-and-month-dark.png" class="zoom" title="View full size"><img src="../assets/img/10-spending-summary-by-supplier-and-month-dark.png" alt="ClerkBrain's spending summary dialog showing totals by supplier and by month for a tax year" loading="lazy" width="1440" height="753"></a>
+        </div>
+        <div class="showcase-text">
+          <span class="badge">SPENDING SUMMARY</span>
+          <h2>Where did the money go? By supplier, by month.</h2>
+          <p>The <code>...</code> menu's Spending summary totals every invoice and receipt for a UK tax year or
+            calendar year, broken down by supplier and by month. Currencies are never mixed together. Click any
+            supplier to see the real documents behind its total.</p>
+          <ul>
+            <li>Built from the same records as the accountant export, so the two always agree</li>
+            <li>Documents with no readable total are reported, never silently dropped or guessed</li>
+            <li>Clearly labelled: this is a summary of what your documents say, not accounting software</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="showcase-row reveal">
+        <div class="shot">
+          <a href="../assets/img/11-correct-values-by-hand-dark.png" class="zoom" title="View full size"><img src="../assets/img/11-correct-values-by-hand-dark.png" alt="ClerkBrain's Correct values dialog with supplier, date, due date, total and invoice number fields" loading="lazy" width="1440" height="753"></a>
+        </div>
+        <div class="showcase-text">
+          <span class="badge">CORRECT BY HAND</span>
+          <h2>Wrong reading? Fix it in one dialog.</h2>
+          <p>Every search result and Ask answer has a <strong>Correct…</strong> button. Type in the right supplier,
+            date, due date, total or invoice number, and ClerkBrain checks it before saving — a total has to be a
+            real amount, a date a real date (day first). Your correction is then used everywhere: file names,
+            exports, the spending summary, Due soon.</p>
+          <ul>
+            <li>Survives the document being read again — it won't silently revert</li>
+            <li>Always undoable, one field at a time</li>
+            <li>The file on disk is never touched — only ClerkBrain's own catalogue</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid grid-3 reveal">
+        <div class="card">
+          <span class="icon">📊</span>
+          <h3>Xero &amp; QuickBooks ready</h3>
+          <p>The accountant export can add a Xero bills import file and a QuickBooks Online transactions file alongside the usual summary spreadsheet — built from the same figures, so nothing is retyped.</p>
+        </div>
+        <div class="card">
+          <span class="icon">🔒</span>
+          <h3>Still entirely on your PC</h3>
+          <p>Due dates, the spending summary and corrections are all worked out from documents already on your PC. Nothing new is uploaded; the only network call ClerkBrain ever makes is the optional AI model download.</p>
+        </div>
+        <div class="card">
+          <span class="icon">🛡️</span>
+          <h3>Backed by a safer catalogue</h3>
+          <p>1.0.1 also checks ClerkBrain's own index at startup and keeps weekly backups, so a damaged catalogue is recovered automatically instead of losing your organised files and corrections.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>Common questions</h2>
+      </div>
+      <div class="prose reveal">
+        <details class="faq-item">
+          <summary>Can ClerkBrain tell me which bills are due or overdue?</summary>
+          <p>Yes. Search <code>due:soon</code> or open Smart Folders &gt; Due soon to see bills and invoices overdue
+            by up to 30 days or due in the next 14, soonest first. The due date comes only from what the document
+            says — a printed "Due date" or "Please pay by", or the invoice date plus payment terms such as
+            "Net 30" — so ClerkBrain never guesses one.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I get a reminder for bills that are due?</summary>
+          <p>Yes, as an optional Windows notification you turn on in Settings &gt; Reminders. It checks at most
+            once a day while ClerkBrain is open and only mentions bills that are overdue or due within 3 days, so
+            it never nags.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Does ClerkBrain show how much I've spent, by supplier or by month?</summary>
+          <p>Yes, in the spending summary (<code>...</code> menu). It totals your invoices and receipts by supplier
+            and by month for a tax year or calendar year, keeps currencies separate rather than adding them
+            together, and every supplier expands to the real documents behind the number.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What if ClerkBrain reads a total, date or due date wrongly?</summary>
+          <p>Use Correct… on that document to type in the right value. ClerkBrain checks it (a total must be a
+            real amount, a date a real date), uses it everywhere — names, exports, the spending summary, Due
+            soon — and keeps it even if the document is read again. It can always be undone, and the file itself
+            is never changed.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap" style="text-align:center;">
+      <h2 class="reveal">Try it on your own bills and invoices</h2>
+      <p class="lede reveal" style="margin:14px auto 26px;">Free on the Microsoft Store.</p>
+      <a class="btn btn-primary reveal" href="../index.html#store" rel="noopener">⊞ Coming soon to the Microsoft Store</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-bottom">
+      <span>© 2026 Nikatsam. All processing happens on your device. · Freelancer &amp; cleanup guides: <a href="https://clerkbrain.pages.dev/" rel="noopener">clerkbrain.pages.dev</a></span>
+      <nav><a href="../index.html">Home</a> · <a href="../privacy.html">Privacy</a> · <a href="../index.html#store" rel="noopener">Microsoft Store</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js?v=3"></script>
+</body>
+</html>
