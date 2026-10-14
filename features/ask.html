@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ask Questions About Your Documents, Privately — On-Device AI | ClerkBrain</title>
+<meta name="description" content="Ask plain-language questions about your invoices, receipts and documents — 'How much was my last electricity bill?' — and get sourced answers from an AI that runs entirely on your PC.">
+<link rel="canonical" href="https://nikatsam.github.io/WIN_APP_TidyClerk_Website/features/ask.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ask Your Documents Questions, Privately — ClerkBrain">
+<meta property="og:description" content="On-device AI answers questions about your own documents, with the source file always shown. Nothing is uploaded.">
+<meta property="og:image" content="https://nikatsam.github.io/WIN_APP_TidyClerk_Website/assets/img/og-banner.png">
+<meta property="og:url" content="https://nikatsam.github.io/WIN_APP_TidyClerk_Website/features/ask.html">
+<link rel="icon" href="../assets/img/icon-310.png">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="stylesheet" href="../assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://nikatsam.github.io/WIN_APP_TidyClerk_Website/" },
+    { "@type": "ListItem", "position": 2, "name": "Ask AI", "item": "https://nikatsam.github.io/WIN_APP_TidyClerk_Website/features/ask.html" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is there an offline AI that can search my documents without uploading them?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. ClerkBrain's Ask tab runs a small language model directly on your PC. Once you've downloaded the optional AI models, you can ask questions about your documents with no internet connection at all, and nothing is ever sent off your device." }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate are the answers, and can I trust them?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Every answer shows the exact source document it came from, so you can check it yourself rather than taking the AI's word for it. The model answers only from the text of your own documents — it does not invent facts from general knowledge." }
+    },
+    {
+      "@type": "Question",
+      "name": "What AI models does ClerkBrain use locally?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A small embedding model (around 90 MB) for meaning-based search, and a small language model (around 2.7 GB) for answering questions, both downloaded once, verified against a SHA-256 checksum, and then run entirely on your own processor." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="/"><img src="../assets/img/icon-310.png" alt="ClerkBrain logo" width="32" height="32">ClerkBrain</a>
+    <nav class="nav-links">
+      <a href="/">Home</a>
+      <a href="organize.html">Organize</a>
+      <a href="ask.html" aria-current="page">Ask AI</a>
+      <a href="receipts-privacy.html">Receipts &amp; Privacy</a>
+      <a href="cleanup.html">Cleanup</a>
+      <a href="../faq.html">FAQ</a>
+      <a href="../privacy.html">Privacy Policy</a>
+      <a class="nav-cta" href="https://apps.microsoft.com/detail/9NKCN2RDXZ55" rel="noopener">Get it on Microsoft Store</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="breadcrumb"><a href="/">Home</a> / Ask AI</p>
+      <span class="badge">ASK</span>
+      <h1>Ask your documents a question. Get a sourced answer.</h1>
+      <p class="lede" style="margin:0 auto;">"How much was my last electricity bill?" "Which invoices did I get from Acme this
+        year?" Type the question in plain English — the on-device AI searches by meaning, not just matching
+        words, and shows you exactly which document the answer came from.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="showcase-row reveal">
+        <div class="shot">
+          <img src="../assets/img/05-ask-a-question-answered-from-your-documents-dark.png" alt="ClerkBrain's Ask tab showing a natural-language question answered with the source document underneath" loading="lazy" width="1402" height="849">
+        </div>
+        <div class="showcase-text">
+          <h2>A private AI that only knows what's in your own files</h2>
+          <p>The model doesn't guess from general knowledge — it answers from the text it has actually read in
+            your documents, and always cites the file it used. If the answer isn't in your documents, it says
+            so rather than making one up.</p>
+        </div>
+      </div>
+
+      <div class="grid grid-3 reveal">
+        <div class="card">
+          <span class="icon">🔍</span>
+          <h3>Search by meaning</h3>
+          <p>Finds the right document even when your wording doesn't match the file's wording exactly — "power bill" finds an "electricity invoice."</p>
+        </div>
+        <div class="card">
+          <span class="icon">📄</span>
+          <h3>Always shows its source</h3>
+          <p>Every answer is paired with the document it was drawn from, so you can open and check it yourself in one click.</p>
+        </div>
+        <div class="card">
+          <span class="icon">📡</span>
+          <h3>Works fully offline</h3>
+          <p>Once the small local models are downloaded, Ask works with no internet connection — nothing is ever sent to a cloud AI service.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <div class="section-head reveal"><h2>Common questions</h2></div>
+      <div class="prose reveal">
+        <details class="faq-item">
+          <summary>Is there an offline AI that can search my documents without uploading them?</summary>
+          <p>Yes. ClerkBrain's Ask tab runs a small language model directly on your PC. Once you've downloaded the optional AI models, you can ask questions with no internet connection at all, and nothing is ever sent off your device.</p>
+        </details>
+        <details class="faq-item">
+          <summary>How accurate are the answers, and can I trust them?</summary>
+          <p>Every answer shows the exact source document it came from, so you can check it yourself. The model answers only from the text of your own documents — it does not invent facts from general knowledge.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What AI models does ClerkBrain use locally?</summary>
+          <p>A small embedding model (around 90 MB) for meaning-based search, and a small language model (around 2.7 GB) for answering questions, both downloaded once, verified against a SHA-256 checksum, and run entirely on your own processor.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap" style="text-align:center;">
+      <h2 class="reveal">Try asking your own documents a question</h2>
+      <p class="lede reveal" style="margin:14px auto 26px;">Free on the Microsoft Store.</p>
+      <a class="btn btn-primary reveal" href="https://apps.microsoft.com/detail/9NKCN2RDXZ55" rel="noopener">⊞ Get it on the Microsoft Store</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-bottom">
+      <span>© 2026 Nikatsam. All processing happens on your device.</span>
+      <nav><a href="/">Home</a> · <a href="../privacy.html">Privacy</a> · <a href="https://apps.microsoft.com/detail/9NKCN2RDXZ55" rel="noopener">Microsoft Store</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

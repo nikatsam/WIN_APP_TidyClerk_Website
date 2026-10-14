@@ -1,0 +1,11 @@
+{
+  "name": "ClerkBrain",
+  "short_name": "ClerkBrain",
+  "icons": [
+    { "src": "assets/img/icon-310.png", "sizes": "310x310", "type": "image/png" },
+    { "src": "assets/img/logo-256.png", "sizes": "256x256", "type": "image/png" }
+  ],
+  "theme_color": "#0b0e1f",
+  "background_color": "#0b0e1f",
+  "display": "browser"
+}
